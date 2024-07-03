@@ -18,35 +18,47 @@ This is a Question Paper Generator application built with Node.js, Express, Mong
 
 1. Clone the repository:
 
+```bash
    git clone https://github.com/vinayak-chavan/questionary.git
    cd questionary
+```
 
 2. Install server-side dependencies:
-   
+
+```bash  
 cd backend
 npm install
+```
 
 3. Install client-side dependencies:
 
+```bash
 cd ../frontend
 npm install
+```
 
 ## Running the Application
 
 1. Seed the database with initial questions :
 
+```bash
 cd server
 node seed.js
+```
 
 2. Start the server:
 
+```bash
 cd backend
 npm start
+```
 
 3. Start the client:
 
+```bash
 cd ../frontend
 npm start
+```
 
 4. Open your web browser and navigate to http://localhost:3000 to view the application.
 
